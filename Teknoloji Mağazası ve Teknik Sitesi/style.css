@@ -1,0 +1,279 @@
+.logo {
+    margin-right: 10px;
+}
+
+.carousel-item
+{
+   width: 50px;
+   height: auto;
+   position: absolute;
+   top: 50%;
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-top: 3%;
+}
+
+footer 
+/* Kodu pasif edersen yazılar sola kayar (başka bir görünüm) */
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.formBolumu {
+  max-width: 700px; /* Formun genişliğini küçült */
+  margin: 50px auto; /* Ortala ve üst boşluk ekle */
+  padding: 20px; /*Alt Üst Boşluk*/
+  border: 1px solid #ddd; /*Çerçeve Kalınlığı*/
+  border-radius: 5px; /*Kenarlıklar*/
+  background-color: #f9f9f9; /* Hafif arka plan */
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #f8f9fa;
+}
+.social-icons a:hover {
+  color: #007bff; /* Hover rengi mavi */
+}
+
+.mb-3
+{
+  padding-left: 15px;
+}
+
+.container-fluid
+{
+  background-color: #212529;
+}
+
+.navbar 
+{
+  background-color: #212529;
+}
+
+.mobitech
+{
+  background-color: #adb5bd;
+}
+
+.container-fluid
+{
+  color: white;
+}
+
+.üstyazi
+{
+  color: white;
+}
+
+.altbaslik
+{
+  font-family: sans-serif;
+}
+
+/* Footer genel ayarları */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer bölümleri */
+.footer-section {
+  flex: 1 1 250px;
+  margin: 20px 10px;
+}
+
+.footer-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #adb5bd;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  font-size: 14px;
+  color:#adb5bd;
+}
+
+/* Linkler */
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+  text-decoration: none;
+  color:#adb5bd;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section.links ul li a:hover {
+  color: #adb5bd;
+}
+
+/* İletişim */
+.footer-section.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.contact ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section.contact ul li i {
+  margin-right: 10px;
+  color: #adb5bd;
+}
+
+/* Sosyal Medya */
+.footer-section.social .social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.footer-section.social .social-icons a:hover {
+  background-color: #adb5bd;
+}
+
+/* Footer alt kısmı */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  font-size: 14px;
+  color:#adb5bd;
+}
+
+.card-text
+{
+    display: grid;
+    grid-template-rows: auto auto; /* Satır yükseklikleri */
+    gap: 10px; /* Hücreler arasındaki boşluk */
+}
+
+
+/* Müşteri Hizmetleri */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #adb5bd;
+}
+
+.chat-container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  border: 2px solid black;
+}
+
+.chat-header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.message.sent {
+  background: #4CAF50;
+  color: white;
+  margin-left: auto;
+}
+
+.message.received {
+  background: #ddd;
+  color: #000;
+  margin-right: auto;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background: #fff;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.chat-input button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-input button:hover 
+{
+  background: #45a049;
+}
+
+

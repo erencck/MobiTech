@@ -1,0 +1,112 @@
+.shoplogo
+{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sepetlogo
+{
+  color: white;
+}
+
+/* Navbar arka plan rengi */
+.navbar {
+  background-color: #212529 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.navbar .sepet {
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+/* Kategori dropdown menüsündeki yazıları siyah yapmak için */
+.navbar .dropdown-item {
+  color: black !important; /* Yazı rengini siyah yap */
+}
+
+/* Hover durumunda yazıyı beyaz tutup arka planı mavi yapmak */
+.navbar .dropdown-item:hover {
+  background-color: #007bff !important; /* Hover için mavi arka plan */
+  color: white !important; /* Hover yazısı beyaz */
+}
+
+/* Navbar yazılarını beyaz yapmak için */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important; /* Navbardaki logo ve linklerin beyaz olması */
+}
+
+/* Dropdown menüdeki öğeleri beyaz yapmak */
+.navbar .dropdown-menu {
+  background-color: white !important; /* Dropdown menüsünün arka plan rengini siyah yap */
+  border: none; /* Dropdown menüsünün etrafındaki kenarlığı kaldır */
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: black !important; /* Yazıyı siyah yap */
+}
+
+/* Navbardaki yazıların beyaz olması için genel ayar */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important; /* Navbar bağlantıları ve marka beyaz */
+}
+
+.telekran {
+  background-color: #adb5bd;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.markatelefon {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #adb5bd;
+}
+
+.card img {
+  height: 350px;
+  object-fit: auto;
+}
+
+.card-body {
+  overflow: hidden;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row .col {
+  margin-bottom: 20px;
+}
+
+
